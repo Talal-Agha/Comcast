@@ -1,0 +1,4333 @@
+.page,
+.page-footer,
+.page-header,
+.page-hero,
+.page-main,
+.page-nav,
+.page-title,
+.javelin_commentsForm .formLayout dd input[type="text"],
+.javelin_commentsForm .formLayout dd textarea,
+.javelin_commentsForm .javelin_formSubmit,
+.javelin_commentsForm .javelin_formCancel,
+.javelin_calendarMulti .javelin_calendarList,
+.javelin_calendarMulti .javelin_calendarList,
+.javelin_calendarMulti .javelin_calendarMini,
+.javelin_calendarMulti .javelin_calendarMini,
+#contactForm .formLayout dd input[type="text"],
+#contactForm .formLayout dd select,
+#contactForm .formLayout dd textarea,
+#contactForm .javelin_formLayoutButtons button,
+.javelin_staffImage,
+body>#javelin_userBar,
+#javelin_searchDiv table table input,
+#javelin_searchDiv table table button,
+.cms_registerAccountWrapper .formLayout dd input[type="text"],
+.cms_registerAccountWrapper .formLayout dd input[type="password"],
+.cms_registerAccountWrapper .javelin_formSubmit,
+.cms_registerAccountWrapper .javelin_formCancel,
+.cms_userLoginWrapper .formLayout dd input[type="text"],
+.cms_userLoginWrapper .formLayout dd input[type="password"],
+.cms_userLoginWrapper button,
+.cms_userLoginWrapper .formCancel,
+.btn,
+.btn-icon,
+.form-control,
+.container,
+[class^="grid-"],
+#nav,
+.callout-panel .panel-inner,
+.info-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.page-header:before,
+.page-header:after,
+.page-nav:before,
+.page-nav:after,
+.javelin_blogPost:before,
+.javelin_blogPost:after,
+.javelin_calendarMulti:before,
+.javelin_calendarMulti:after,
+.javelin_galleryItems:before,
+.javelin_galleryItems:after,
+.javelin_staffItem:before,
+.javelin_staffItem:after,
+.javelin_staffModule:before,
+.javelin_staffModule:after,
+.javelin_twitterHeader:before,
+.javelin_twitterHeader:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+#nav:before,
+#nav:after {
+    content: "";
+    display: table
+}
+
+.page-header:after,
+.page-nav:after,
+.javelin_blogPost:after,
+.javelin_calendarMulti:after,
+.javelin_galleryItems:after,
+.javelin_staffItem:after,
+.javelin_staffModule:after,
+.javelin_twitterHeader:after,
+.container:after,
+.row:after,
+#nav:after {
+    clear: both
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: bold
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+html {
+    font-size: 10px;
+    background-color: #000;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    background-color: #e9e9e9;
+    color: #141414;
+    font-size: 18px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.75
+}
+
+a {
+    color: #d51b22;
+    text-decoration: none
+}
+
+a:hover,
+a:focus {
+    color: #e57175;
+    text-decoration: none
+}
+
+img {
+    vertical-align: middle
+}
+
+figure {
+    margin: 0
+}
+
+hr {
+    margin: 31px 0;
+    border: 0;
+    border-top: 1px solid #ccc
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.25
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+    color: inherit;
+    font: inherit
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small {
+    color: inherit;
+    font-weight: normal;
+    line-height: 1
+}
+
+h1,
+.h1 {
+    margin-bottom: 30px;
+    color: inherit;
+    font-size: 30px
+}
+
+h2,
+.h2 {
+    margin-bottom: 30px;
+    color: inherit;
+    font-size: 26px
+}
+
+h3,
+.h3 {
+    margin-bottom: 30px;
+    color: inherit;
+    font-size: 22px
+}
+
+h4,
+.h4 {
+    margin-bottom: 15px;
+    color: inherit;
+    font-size: 22px
+}
+
+h5,
+.h5 {
+    margin-bottom: 15px;
+    color: inherit;
+    font-size: 18px
+}
+
+h6,
+.h6 {
+    margin-bottom: 15px;
+    color: inherit;
+    font-size: 28px
+}
+
+h1 small,
+h2 small,
+h3 small,
+.h1 small,
+.h2 small,
+.h3 small {
+    font-size: 62.5%
+}
+
+h4 small,
+h5 small,
+h6 small,
+.h4 small,
+.h5 small,
+.h6 small {
+    font-size: 75%
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 31px
+}
+
+blockquote {
+    margin: 0 30px 31px 30px;
+    padding: 5px 20px;
+    border-left: 5px solid #ccc
+}
+
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+    margin-bottom: 0
+}
+
+blockquote footer {
+    color: #4f4f4f;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.75;
+    display: block
+}
+
+blockquote footer:before {
+    content: "\2014\0020"
+}
+
+address {
+    margin-bottom: 31px;
+    font-style: normal;
+    line-height: 1.75
+}
+
+small {
+    font-size: 13px
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+cite {
+    font-style: normal
+}
+
+mark {
+    background-color: #ff9
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-left: 45px;
+    margin-bottom: 31px;
+    padding: 0
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-left: 33px;
+    margin-bottom: 0
+}
+
+ul li {
+    list-style: disc
+}
+
+ul ul li,
+ol ul li {
+    list-style: circle
+}
+
+ul ul ul li,
+ol ul ul li,
+ol ol ul li {
+    list-style: square
+}
+
+ol li {
+    list-style: decimal
+}
+
+ol ol li,
+ul ol li {
+    list-style: lower-alpha
+}
+
+ol ol ol li,
+ul ol ol li,
+ul ul ol li {
+    list-style: lower-roman
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 31px
+}
+
+dt,
+dd {
+    line-height: 1.75
+}
+
+dt {
+    font-weight: bold
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 31px
+}
+
+table {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 31px
+}
+
+th {
+    text-align: left
+}
+
+th,
+td {
+    padding: 5px 10px;
+    vertical-align: top
+}
+
+code,
+pre,
+samp,
+var {
+    font-size: 13px;
+    font-family: "Courier New", Courier, monospace, serif;
+    font-style: normal
+}
+
+code {
+    padding: 2px 5px;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    color: #c7254e;
+    font-weight: normal;
+    white-space: nowrap
+}
+
+kbd {
+    padding: 3px 8px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 2px #fff;
+    color: #555;
+    font: bold 11px/1.4 Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    display: inline-block
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 31px;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+    line-height: 1.75;
+    display: block
+}
+
+pre code {
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    white-space: pre-wrap
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 0
+}
+
+legend {
+    width: 100%;
+    margin-bottom: 31px;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    color: inherit;
+    font-size: 22px;
+    line-height: inherit;
+    display: block
+}
+
+label {
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: inline-block
+}
+
+select[multiple],
+select[size] {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0;
+    margin-top: 1px \9;
+    line-height: normal
+}
+
+input[type="file"] {
+    width: 100%;
+    display: block
+}
+
+input[type="range"] {
+    width: 100%;
+    display: block
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+    line-height: 43px;
+    line-height: 1.75 \0
+}
+
+@media print {
+    * {
+        background: transparent!important;
+        box-shadow: none!important;
+        color: #000!important;
+        text-shadow: none!important
+    }
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: ""
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+    thead {
+        display: table-header-group
+    }
+    img,
+    tr {
+        page-break-inside: avoid
+    }
+    img {
+        max-width: 100%!important
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+    select {
+        background: #fff!important
+    }
+}
+
+.page,
+.page-footer,
+.page-header,
+.page-hero,
+.page-main,
+.page-nav,
+.page-title {
+    position: relative
+}
+
+.page,
+.page-footer,
+.page-hero,
+.page-main,
+.page-title {
+    z-index: 1!important
+}
+
+.page-header,
+.page-nav {
+    z-index: 2!important
+}
+
+.page-footer {
+    padding-bottom: 100px
+}
+
+h2.logo {
+    margin-bottom: 0
+}
+
+.default-region {
+    min-height: 400px
+}
+
+.pageTitle {
+    margin-bottom: 30px;
+    color: inherit;
+    font-size: 30px;
+    line-height: 1.25;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.b40-credit a {
+    color: inherit
+}
+
+.b40-credit a:hover {
+    color: inherit
+}
+
+.javelin,
+.ui-dialog {
+    text-shadow: none
+}
+
+.javelin h2,
+.javelin h3,
+.javelin h4 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: none
+}
+
+.javelin_dialog .javelin_moduleTabs li a {
+    font: inherit
+}
+
+.javelin_moduleBarOptions li,
+.ui-dialog li,
+ul.javelin_pageTree li {
+    padding-left: 0!important;
+    background: none!important;
+    list-style: none!important
+}
+
+.ui-dialog .ui-dialog-title {
+    font-size: 16px!important
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 4px
+}
+
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font-size: 12px!important;
+    line-height: 1.5
+}
+
+.javelin dt {
+    font-weight: normal
+}
+
+.javelin label {
+    font-weight: inherit
+}
+
+.javelin_requiredField {
+    color: #c00
+}
+
+#javelintoolbar input {
+    font-weight: normal
+}
+
+#javelin_userBar ul li {
+    padding-left: 8px!important
+}
+
+#javelin_userBar ul li:first-child {
+    padding-left: 0!important
+}
+
+#javelin_userBar ul li:last-child {
+    padding-right: 0!important
+}
+
+.javelin_blogPost {
+    margin-bottom: 31px
+}
+
+.javelin_blogPostTitle {
+    margin-bottom: 0;
+    font-size: 22px
+}
+
+.javelin_blogPostDate,
+.javelin_blogPostByline {
+    font-size: inherit;
+    font-style: inherit
+}
+
+.javelin_blogPostSummary:empty {
+    display: none
+}
+
+.javelin_blogPostSummary a[title="Read More"] {
+    display: block
+}
+
+.javelin_blogCommentsLink {
+    text-align: right;
+    float: none
+}
+
+.javelin_blogFeedRss {
+    display: none
+}
+
+.javelin_blogPostImage {
+    float: left
+}
+
+.javelin_blogPostImage+.javelin_blogPostTitle,
+.javelin_blogPostImage+.javelin_blogPostTitle+.javelin_blogPostDate,
+.javelin_blogPostImage+.javelin_blogPostTitle+.javelin_blogPostSummary,
+.javelin_blogPostImage+.javelin_blogPostTitle+.javelin_blogPostDate+.javelin_blogPostSummary {
+    padding-left: 230px
+}
+
+.javelin_blogPageLinks {
+    margin-top: 62px;
+    text-align: center
+}
+
+.javelin_blogPageLinks>a,
+.javelin_blogPageLinks>b {
+    margin-left: 2px;
+    margin-right: 2px
+}
+
+.javelin_blogPageLinks a,
+.javelin_blogPageLinks b {
+    display: inline-block
+}
+
+.javelin_blogPageLinks b {
+    font-weight: normal;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.javelin_blogPageLinks b,
+.javelin_blogPageLinks b>a {
+    width: 20px;
+    height: 30px
+}
+
+.javelin_blogPageLinks b>a {
+    background-color: transparent
+}
+
+.javelin_blogPageLinks>a:first-child,
+.javelin_blogPageLinks>a:last-child {
+    line-height: 30px;
+    position: relative;
+    top: 1px;
+    background-color: transparent
+}
+
+.javelin_blogView .javelin_blogPostDate,
+.javelin_blogView .javelin_blogPostByline {
+    font-weight: bold
+}
+
+.javelin_blogPostTags,
+.javelin_blogBackLink {
+    padding: 0
+}
+
+.javelin_blogPostTags {
+    margin-bottom: 31px
+}
+
+.javelin_blogBackLink {
+    margin-bottom: 31px
+}
+
+.javelin_blogComments .javelin_comments {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    border-top: 1px solid #ccc
+}
+
+.javelin_blogComments .javelin_comments>br,
+.javelin_blogComments .javelin_comments:empty {
+    display: none
+}
+
+.javelin_blogComments .javelin_commentsItem {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 31px;
+    padding: 0!important
+}
+
+.javelin_blogComments .javelin_commentsItem:last-child {
+    margin-bottom: 0
+}
+
+.javelin_commentsItemByline {
+    color: inherit;
+    font-weight: bold;
+    line-height: inherit
+}
+
+.javelin_commentsItemDateline {
+    margin-bottom: 0;
+    color: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: inherit
+}
+
+.javelin_commentsForm {
+    width: 60%;
+    padding-top: 31px;
+    border-top: 1px solid #ccc
+}
+
+.javelin_commentsForm legend {
+    border-bottom: 0
+}
+
+.javelin_commentsForm .formLayout {
+    margin-bottom: 0
+}
+
+.javelin_commentsForm .formLayout dt {
+    margin-top: 0
+}
+
+.javelin_commentsForm .formLayout dd {
+    margin-bottom: 31px
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"],
+.javelin_commentsForm .formLayout dd textarea {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select.javelin_commentsForm .formLayout dd input[type="text"],
+select.javelin_commentsForm .formLayout dd textarea {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea.javelin_commentsForm .formLayout dd input[type="text"],
+textarea.javelin_commentsForm .formLayout dd textarea,
+select[multiple].javelin_commentsForm .formLayout dd input[type="text"],
+select[multiple].javelin_commentsForm .formLayout dd textarea {
+    height: auto
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"]::-moz-placeholder,
+.javelin_commentsForm .formLayout dd textarea::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"]:-ms-input-placeholder,
+.javelin_commentsForm .formLayout dd textarea:-ms-input-placeholder {
+    color: #aaa
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"]::-webkit-input-placeholder,
+.javelin_commentsForm .formLayout dd textarea::-webkit-input-placeholder {
+    color: #aaa
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"]:focus,
+.javelin_commentsForm .formLayout dd textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.javelin_commentsForm .formLayout dd input[type="text"][disabled],
+.javelin_commentsForm .formLayout dd textarea[disabled],
+.javelin_commentsForm .formLayout dd input[type="text"][readonly],
+.javelin_commentsForm .formLayout dd textarea[readonly],
+fieldset[disabled] .javelin_commentsForm .formLayout dd input[type="text"],
+fieldset[disabled] .javelin_commentsForm .formLayout dd textarea {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea.javelin_commentsForm .formLayout dd input[type="text"],
+textarea.javelin_commentsForm .formLayout dd textarea {
+    height: auto;
+    min-height: 150px
+}
+
+.javelin_commentsForm .formLayout dd textarea {
+    height: auto
+}
+
+.javelin_commentsForm .javelin_formButtonContainer {
+    text-align: center
+}
+
+.javelin_commentsForm .javelin_formSubmit,
+.javelin_commentsForm .javelin_formCancel {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 9px;
+    padding-bottom: 5px
+}
+
+.javelin_commentsForm .javelin_formSubmit:hover,
+.javelin_commentsForm .javelin_formCancel:hover,
+.javelin_commentsForm .javelin_formSubmit:focus,
+.javelin_commentsForm .javelin_formCancel:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.javelin_commentsForm .javelin_formSubmit:active,
+.javelin_commentsForm .javelin_formCancel:active,
+.javelin_commentsForm .javelin_formSubmit.active,
+.javelin_commentsForm .javelin_formCancel.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+.javelin_commentsForm .javelin_formSubmit.disabled,
+.javelin_commentsForm .javelin_formCancel.disabled,
+.javelin_commentsForm .javelin_formSubmit[disabled],
+.javelin_commentsForm .javelin_formCancel[disabled],
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit,
+fieldset[disabled] .javelin_commentsForm .javelin_formCancel {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.javelin_commentsForm .javelin_formSubmit {
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+.javelin_commentsForm .javelin_formSubmit:hover,
+.javelin_commentsForm .javelin_formSubmit:focus,
+.javelin_commentsForm .javelin_formSubmit:active,
+.javelin_commentsForm .javelin_formSubmit.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.javelin_commentsForm .javelin_formSubmit.disabled,
+.javelin_commentsForm .javelin_formSubmit[disabled],
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit,
+.javelin_commentsForm .javelin_formSubmit.disabled:hover,
+.javelin_commentsForm .javelin_formSubmit[disabled]:hover,
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit:hover,
+.javelin_commentsForm .javelin_formSubmit.disabled:focus,
+.javelin_commentsForm .javelin_formSubmit[disabled]:focus,
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit:focus,
+.javelin_commentsForm .javelin_formSubmit.disabled:active,
+.javelin_commentsForm .javelin_formSubmit[disabled]:active,
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit:active,
+.javelin_commentsForm .javelin_formSubmit.disabled.active,
+.javelin_commentsForm .javelin_formSubmit[disabled].active,
+fieldset[disabled] .javelin_commentsForm .javelin_formSubmit.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+.javelin_commentsForm .javelin_formSubmit:hover,
+.javelin_commentsForm .javelin_formSubmit:focus,
+.javelin_commentsForm .javelin_formSubmit:active,
+.javelin_commentsForm .javelin_formSubmit.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+.javelin_commentsForm .javelin_formCancel {
+    border-radius: 0;
+    color: #d51b22;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    display: inline
+}
+
+.javelin_commentsForm .javelin_formCancel,
+.javelin_commentsForm .javelin_formCancel.active,
+.javelin_commentsForm .javelin_formCancel:active,
+.javelin_commentsForm .javelin_formCancel[disabled],
+fieldset[disabled] .javelin_commentsForm .javelin_formCancel {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.javelin_commentsForm .javelin_formCancel,
+.javelin_commentsForm .javelin_formCancel:hover,
+.javelin_commentsForm .javelin_formCancel:focus,
+.javelin_commentsForm .javelin_formCancel.active,
+.javelin_commentsForm .javelin_formCancel:active {
+    border-color: transparent
+}
+
+.javelin_commentsForm .javelin_formCancel:hover,
+.javelin_commentsForm .javelin_formCancel:focus {
+    background-color: transparent;
+    color: #e57175
+}
+
+.javelin_commentsForm .javelin_formCancel[disabled]:hover,
+fieldset[disabled] .javelin_commentsForm .javelin_formCancel:hover,
+.javelin_commentsForm .javelin_formCancel[disabled]:focus,
+fieldset[disabled] .javelin_commentsForm .javelin_formCancel:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.javelin_calendarMulti {
+    min-height: auto;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.javelin_calendarMulti .javelin_calendarList,
+.javelin_calendarMulti .javelin_calendarMini {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative
+}
+
+.javelin_calendarMulti .javelin_calendarList a {
+    font-size: inherit
+}
+
+.javelin_calendarMulti .javelin_calendarList {
+    width: 60%;
+    padding-right: 15px;
+    float: left
+}
+
+.javelin_calendarMulti .javelin_calendarMini {
+    width: 40%;
+    padding-left: 15px;
+    float: right
+}
+
+.javelin_calendarEvent {
+    margin-bottom: 31px
+}
+
+.javelin_calendarEventLink,
+.javelin_calendarEventTitle {
+    margin-bottom: 0;
+    font-size: 22px
+}
+
+.javelin_calendarEventDateRange,
+.javelin_calendarEventView .javelin_calendarEventDateRange {
+    font-size: inherit;
+    font-style: inherit
+}
+
+.javelin_calendarEventSummary:empty {
+    display: none
+}
+
+.javelin_calendarEventBody {
+    margin-top: 31px
+}
+
+.javelin_calendarEventView>a {
+    margin-bottom: 31px;
+    font-size: inherit;
+    display: inline-block
+}
+
+.javelin_calendarMini .javelin_calendarTable,
+.javelin_calendarFull .javelin_calendarTable {
+    margin-bottom: 31px;
+    border: 1px inset #ccc
+}
+
+.javelin_calendarMini .javelin_calendarTable caption,
+.javelin_calendarFull .javelin_calendarTable caption {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #141414;
+    line-height: 40px!important
+}
+
+.javelin_calendarMini .javelin_calendarTable th,
+.javelin_calendarFull .javelin_calendarTable th {
+    height: auto!important
+}
+
+.javelin_calendarMini .javelin_calendarTable td,
+.javelin_calendarFull .javelin_calendarTable td {
+    font-weight: normal!important
+}
+
+.javelin_calendarMini .javelin_calendarTable th,
+.javelin_calendarFull .javelin_calendarTable th,
+.javelin_calendarMini .javelin_calendarTable td,
+.javelin_calendarFull .javelin_calendarTable td {
+    width: 14.285%!important;
+    padding: 0!important;
+    background-color: #fff;
+    border: 1px inset #ccc;
+    color: #141414;
+    font-size: 15px;
+    line-height: 40px
+}
+
+.javelin_calendarMini .javelin_calendarTable .javelin_calendarDayToday,
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayToday {
+    border-style: solid;
+    border-color: #40a6d9
+}
+
+.javelin_calendarMini .javelin_calendarTable .javelin_calendarDayEvents,
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents {
+    background-color: #f2f9fc!important
+}
+
+.javelin_calendarMini .javelin_calendarTable .javelin_calendarDayEvents>a,
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a {
+    color: #d51b22!important
+}
+
+.javelin_calendarMini .javelin_calendarTable .javelin_calendarDayEvents>a:hover,
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a:hover {
+    color: #e57175!important
+}
+
+.javelin_calendarMini .javelin_calendarTable th,
+.javelin_calendarMini .javelin_calendarTable td {
+    text-align: center
+}
+
+.javelin_calendarFull .javelin_calendarTable th,
+.javelin_calendarFull .javelin_calendarTable td {
+    padding: 10px 10px!important;
+    line-height: 1.25
+}
+
+.javelin_calendarFull .javelin_calendarTable th {
+    text-align: center
+}
+
+.javelin_calendarFull .javelin_calendarTable td {
+    height: 100px;
+    font-size: 13px
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayNumber {
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 13px;
+    line-height: 1
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>br {
+    display: none
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a {
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #d51b22;
+    display: block
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a:hover {
+    color: #e57175
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a:before {
+    margin-left: -10px;
+    font-size: 17px;
+    line-height: 1;
+    content: "\2022";
+    float: left
+}
+
+.javelin_calendarFull .javelin_calendarTable .javelin_calendarDayEvents>a:last-child {
+    margin-bottom: 0
+}
+
+.javelin_calendarMini .javelin_calendarMonth,
+.javelin_calendarFull .javelin_calendarMonth {
+    padding: 0;
+    display: inline-block;
+    position: static!important;
+    left: 0
+}
+
+.javelin_calendarMini .javelin_calendarPrev,
+.javelin_calendarFull .javelin_calendarPrev,
+.javelin_calendarMini .javelin_calendarNext,
+.javelin_calendarFull .javelin_calendarNext {
+    width: 14.285%!important;
+    color: #141414
+}
+
+.javelin_calendarMini .javelin_calendarPrev:hover,
+.javelin_calendarFull .javelin_calendarPrev:hover,
+.javelin_calendarMini .javelin_calendarNext:hover,
+.javelin_calendarFull .javelin_calendarNext:hover {
+    color: #6c6c6c
+}
+
+.javelin_calendarMini .javelin_calendarPrev,
+.javelin_calendarFull .javelin_calendarPrev {
+    float: left
+}
+
+.javelin_calendarMini .javelin_calendarNext,
+.javelin_calendarFull .javelin_calendarNext {
+    float: right
+}
+
+.javelin_calendarMini .javelin_calendarTable th,
+.javelin_calendarFull .javelin_calendarTable th {
+    font-size: 18px
+}
+
+#contactForm .formLayout {
+    width: 50%;
+    margin-bottom: 0
+}
+
+#contactForm .formLayout dt {
+    margin-top: 0
+}
+
+#contactForm .formLayout dd {
+    margin-bottom: 31px
+}
+
+#contactForm .formLayout dd input[type="text"],
+#contactForm .formLayout dd select,
+#contactForm .formLayout dd textarea {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select#contactForm .formLayout dd input[type="text"],
+select#contactForm .formLayout dd select,
+select#contactForm .formLayout dd textarea {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea#contactForm .formLayout dd input[type="text"],
+textarea#contactForm .formLayout dd select,
+textarea#contactForm .formLayout dd textarea,
+select[multiple]#contactForm .formLayout dd input[type="text"],
+select[multiple]#contactForm .formLayout dd select,
+select[multiple]#contactForm .formLayout dd textarea {
+    height: auto
+}
+
+#contactForm .formLayout dd input[type="text"]::-moz-placeholder,
+#contactForm .formLayout dd select::-moz-placeholder,
+#contactForm .formLayout dd textarea::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+#contactForm .formLayout dd input[type="text"]:-ms-input-placeholder,
+#contactForm .formLayout dd select:-ms-input-placeholder,
+#contactForm .formLayout dd textarea:-ms-input-placeholder {
+    color: #aaa
+}
+
+#contactForm .formLayout dd input[type="text"]::-webkit-input-placeholder,
+#contactForm .formLayout dd select::-webkit-input-placeholder,
+#contactForm .formLayout dd textarea::-webkit-input-placeholder {
+    color: #aaa
+}
+
+#contactForm .formLayout dd input[type="text"]:focus,
+#contactForm .formLayout dd select:focus,
+#contactForm .formLayout dd textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+#contactForm .formLayout dd input[type="text"][disabled],
+#contactForm .formLayout dd select[disabled],
+#contactForm .formLayout dd textarea[disabled],
+#contactForm .formLayout dd input[type="text"][readonly],
+#contactForm .formLayout dd select[readonly],
+#contactForm .formLayout dd textarea[readonly],
+fieldset[disabled] #contactForm .formLayout dd input[type="text"],
+fieldset[disabled] #contactForm .formLayout dd select,
+fieldset[disabled] #contactForm .formLayout dd textarea {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea#contactForm .formLayout dd input[type="text"],
+textarea#contactForm .formLayout dd select,
+textarea#contactForm .formLayout dd textarea {
+    height: auto;
+    min-height: 150px
+}
+
+#contactForm .formLayout dd textarea {
+    height: auto
+}
+
+#contactForm .javelin_formLayoutButtons {
+    text-align: center
+}
+
+#contactForm .javelin_formLayoutButtons button {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+#contactForm .javelin_formLayoutButtons button:hover,
+#contactForm .javelin_formLayoutButtons button:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+#contactForm .javelin_formLayoutButtons button:active,
+#contactForm .javelin_formLayoutButtons button.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+#contactForm .javelin_formLayoutButtons button.disabled,
+#contactForm .javelin_formLayoutButtons button[disabled],
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+#contactForm .javelin_formLayoutButtons button:hover,
+#contactForm .javelin_formLayoutButtons button:focus,
+#contactForm .javelin_formLayoutButtons button:active,
+#contactForm .javelin_formLayoutButtons button.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+#contactForm .javelin_formLayoutButtons button.disabled,
+#contactForm .javelin_formLayoutButtons button[disabled],
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button,
+#contactForm .javelin_formLayoutButtons button.disabled:hover,
+#contactForm .javelin_formLayoutButtons button[disabled]:hover,
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button:hover,
+#contactForm .javelin_formLayoutButtons button.disabled:focus,
+#contactForm .javelin_formLayoutButtons button[disabled]:focus,
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button:focus,
+#contactForm .javelin_formLayoutButtons button.disabled:active,
+#contactForm .javelin_formLayoutButtons button[disabled]:active,
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button:active,
+#contactForm .javelin_formLayoutButtons button.disabled.active,
+#contactForm .javelin_formLayoutButtons button[disabled].active,
+fieldset[disabled] #contactForm .javelin_formLayoutButtons button.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+#contactForm .javelin_formLayoutButtons button:hover,
+#contactForm .javelin_formLayoutButtons button:focus,
+#contactForm .javelin_formLayoutButtons button:active,
+#contactForm .javelin_formLayoutButtons button.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+#contactForm #state,
+#contactForm #zip,
+#contactForm #phone,
+#contactForm #captcha {
+    width: auto;
+    min-width: 40%
+}
+
+.javelin_faqQuestions {
+    margin-bottom: 31px
+}
+
+.javelin_faqAnswersTitle {
+    padding-top: 31px;
+    border-top: 1px solid #ccc
+}
+
+.javelin_faqItem {
+    margin-bottom: 31px
+}
+
+.javelin_faqItem dl,
+.javelin_faqItem dd {
+    margin-bottom: 0
+}
+
+.javelin_faqItemQuestion {
+    font-weight: bold
+}
+
+.javelin_faqItemTopLink {
+    margin-top: -31px;
+    text-align: right
+}
+
+.javelin_galleryItems {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0
+}
+
+.javelin_gallery li.javelin_galleryItem {
+    margin: 0 15px 30px 15px;
+    list-style: none
+}
+
+.javelin_galleryItemImage img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.javelin_galleryItemCaption {
+    padding: 5px 10px;
+    line-height: 1.25;
+    text-align: center
+}
+
+.javelin_staffItems {
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.javelin_staffItem {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 31px;
+    text-align: left;
+    float: none
+}
+
+.javelin_staffItem:last-child {
+    margin-bottom: 0
+}
+
+.javelin_staffItem .javelin_staffItemName {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.25;
+    margin-bottom: 30px;
+    color: inherit;
+    font-size: 22px;
+    margin-bottom: 0
+}
+
+.javelin_staffItem .javelin_staffItemName a {
+    color: inherit;
+    font: inherit
+}
+
+.javelin_staffItem .javelin_staffItemName small {
+    color: inherit;
+    font-weight: normal;
+    line-height: 1
+}
+
+.javelin_staffItem .javelin_staffItemName small {
+    font-size: 62.5%
+}
+
+.javelin_staffItem .javelin_staffItemTitle {
+    font-style: normal;
+    font-size: inherit
+}
+
+.javelin_staffItem .javelin_staffItemSummary p {
+    margin-bottom: 0
+}
+
+.javelin_staffItemImage {
+    margin-right: 0
+}
+
+.javelin_staffItemImage {
+    float: left
+}
+
+.javelin_staffItemImage+.javelin_staffItemName,
+.javelin_staffItemImage+.javelin_staffItemName+.javelin_staffItemTitle,
+.javelin_staffItemImage+.javelin_staffItemName+.javelin_staffItemTitle+.javelin_staffItemSummary {
+    padding-left: 230px
+}
+
+.javelin_staffModule {
+    padding-left: 40%
+}
+
+.javelin_staffName {
+    margin-bottom: 0
+}
+
+.javelin_staffImage {
+    text-align: center;
+    width: 66.5%;
+    margin-left: -66.5%;
+    padding-right: 30px;
+    float: left
+}
+
+.javelin_staffImage img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0
+}
+
+.javelin_staffTitle {
+    margin-bottom: 31px;
+    font-style: normal;
+    display: block
+}
+
+.javelin_staffCity,
+.javelin_staffState,
+.javelin_staffZip {
+    margin-bottom: 31px
+}
+
+.javelin_staffPhoneWorkTitle,
+.javelin_staffPhoneMobileTitle,
+.javelin_staffPhoneOtherTitle,
+.javelin_staffPhoneOtherTitle,
+.javelin_staffPhoneFaxTitle {
+    width: 150px;
+    font-weight: bold;
+    float: left
+}
+
+.javelin_staffPhoneWork,
+.javelin_staffPhoneMobile,
+.javelin_staffPhoneOther,
+.javelin_staffPhoneOther,
+.javelin_staffPhoneFax {
+    padding-left: 180px
+}
+
+.javelin_staffBody {
+    padding-top: 31px
+}
+
+.javelin_staffZip+.javelin_staffBody {
+    padding-top: 0
+}
+
+.javelin_twitter {
+    font-size: inherit
+}
+
+.javelin_twitterHeader {
+    margin-bottom: 31px;
+    padding-left: 63px;
+    position: relative
+}
+
+.javelin_twitterHeader br {
+    display: none
+}
+
+.javelin_twitterHeader>a:first-child {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.javelin_twitterHeader_screenName,
+.javelin_twitterHeader_userName {
+    line-height: 24px;
+    display: block
+}
+
+.javelin_twitterUserImage {
+    width: 100%!important;
+    height: 100%!important;
+    margin-right: 0;
+    float: none
+}
+
+.javelin_twitterTweets {
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.javelin_twitterTweets li {
+    margin-top: 0;
+    margin-bottom: 31px;
+    line-height: 1.5
+}
+
+.javelin_twitterTweets li:last-child {
+    margin-bottom: 0
+}
+
+.javelin_twitterTweetMeta {
+    font-size: 13px
+}
+
+body>#javelin_userBar {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #222;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.175);
+    color: #fff
+}
+
+body>#javelin_userBar>ul {
+    margin: 0;
+    line-height: 20px;
+    float: right
+}
+
+body>#javelin_userBar>ul li {
+    padding: 0 10px;
+    border-right-color: #666;
+    font-size: 13px;
+    float: left
+}
+
+body>#javelin_userBar>ul a {
+    display: inline-block
+}
+
+body>#javelin_userBarSpacer {
+    height: 40px
+}
+
+.javelin_weather {
+    font-size: 15px
+}
+
+.javelin_weather>br {
+    display: none
+}
+
+.javelin_weather p {
+    line-height: 1.5
+}
+
+.javelin_weather p:last-child {
+    margin-bottom: 0
+}
+
+.javelin_weatherTime {
+    font-size: 13px
+}
+
+.javelin_weatherImg {
+    margin-right: 10px;
+    float: left
+}
+
+.javelin_weatherTemp {
+    font-size: 24px;
+    line-height: 52px!important
+}
+
+#javelin_searchDiv table {
+    margin-bottom: 0
+}
+
+#javelin_searchDiv table table td:first-child {
+    width: 80%;
+    padding-right: 30px
+}
+
+#javelin_searchDiv table table td:last-child {
+    width: 20%
+}
+
+#javelin_searchDiv table table input {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select#javelin_searchDiv table table input {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea#javelin_searchDiv table table input,
+select[multiple]#javelin_searchDiv table table input {
+    height: auto
+}
+
+#javelin_searchDiv table table input::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+#javelin_searchDiv table table input:-ms-input-placeholder {
+    color: #aaa
+}
+
+#javelin_searchDiv table table input::-webkit-input-placeholder {
+    color: #aaa
+}
+
+#javelin_searchDiv table table input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+#javelin_searchDiv table table input[disabled],
+#javelin_searchDiv table table input[readonly],
+fieldset[disabled] #javelin_searchDiv table table input {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea#javelin_searchDiv table table input {
+    height: auto;
+    min-height: 150px
+}
+
+#javelin_searchDiv table table button {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+#javelin_searchDiv table table button:hover,
+#javelin_searchDiv table table button:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+#javelin_searchDiv table table button:active,
+#javelin_searchDiv table table button.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+#javelin_searchDiv table table button.disabled,
+#javelin_searchDiv table table button[disabled],
+fieldset[disabled] #javelin_searchDiv table table button {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+#javelin_searchDiv table table button:hover,
+#javelin_searchDiv table table button:focus,
+#javelin_searchDiv table table button:active,
+#javelin_searchDiv table table button.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+#javelin_searchDiv table table button.disabled,
+#javelin_searchDiv table table button[disabled],
+fieldset[disabled] #javelin_searchDiv table table button,
+#javelin_searchDiv table table button.disabled:hover,
+#javelin_searchDiv table table button[disabled]:hover,
+fieldset[disabled] #javelin_searchDiv table table button:hover,
+#javelin_searchDiv table table button.disabled:focus,
+#javelin_searchDiv table table button[disabled]:focus,
+fieldset[disabled] #javelin_searchDiv table table button:focus,
+#javelin_searchDiv table table button.disabled:active,
+#javelin_searchDiv table table button[disabled]:active,
+fieldset[disabled] #javelin_searchDiv table table button:active,
+#javelin_searchDiv table table button.disabled.active,
+#javelin_searchDiv table table button[disabled].active,
+fieldset[disabled] #javelin_searchDiv table table button.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+#javelin_searchDiv table table button:hover,
+#javelin_searchDiv table table button:focus,
+#javelin_searchDiv table table button:active,
+#javelin_searchDiv table table button.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+#javelin_searchDiv th,
+#javelin_searchDiv td {
+    padding: 0
+}
+
+.cms_registerAccountWrapper .formLayout {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 0
+}
+
+.cms_registerAccountWrapper .formLayout dt {
+    margin-top: 0
+}
+
+.cms_registerAccountWrapper .formLayout dd {
+    margin-bottom: 31px
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"],
+.cms_registerAccountWrapper .formLayout dd input[type="password"] {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select.cms_registerAccountWrapper .formLayout dd input[type="text"],
+select.cms_registerAccountWrapper .formLayout dd input[type="password"] {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea.cms_registerAccountWrapper .formLayout dd input[type="text"],
+textarea.cms_registerAccountWrapper .formLayout dd input[type="password"],
+select[multiple].cms_registerAccountWrapper .formLayout dd input[type="text"],
+select[multiple].cms_registerAccountWrapper .formLayout dd input[type="password"] {
+    height: auto
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"]::-moz-placeholder,
+.cms_registerAccountWrapper .formLayout dd input[type="password"]::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"]:-ms-input-placeholder,
+.cms_registerAccountWrapper .formLayout dd input[type="password"]:-ms-input-placeholder {
+    color: #aaa
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"]::-webkit-input-placeholder,
+.cms_registerAccountWrapper .formLayout dd input[type="password"]::-webkit-input-placeholder {
+    color: #aaa
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"]:focus,
+.cms_registerAccountWrapper .formLayout dd input[type="password"]:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.cms_registerAccountWrapper .formLayout dd input[type="text"][disabled],
+.cms_registerAccountWrapper .formLayout dd input[type="password"][disabled],
+.cms_registerAccountWrapper .formLayout dd input[type="text"][readonly],
+.cms_registerAccountWrapper .formLayout dd input[type="password"][readonly],
+fieldset[disabled] .cms_registerAccountWrapper .formLayout dd input[type="text"],
+fieldset[disabled] .cms_registerAccountWrapper .formLayout dd input[type="password"] {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea.cms_registerAccountWrapper .formLayout dd input[type="text"],
+textarea.cms_registerAccountWrapper .formLayout dd input[type="password"] {
+    height: auto;
+    min-height: 150px
+}
+
+.cms_registerAccountWrapper .javelin_formButtonContainer {
+    text-align: center
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit,
+.cms_registerAccountWrapper .javelin_formCancel {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 9px;
+    padding-bottom: 5px
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit:hover,
+.cms_registerAccountWrapper .javelin_formCancel:hover,
+.cms_registerAccountWrapper .javelin_formSubmit:focus,
+.cms_registerAccountWrapper .javelin_formCancel:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit:active,
+.cms_registerAccountWrapper .javelin_formCancel:active,
+.cms_registerAccountWrapper .javelin_formSubmit.active,
+.cms_registerAccountWrapper .javelin_formCancel.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit.disabled,
+.cms_registerAccountWrapper .javelin_formCancel.disabled,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled],
+.cms_registerAccountWrapper .javelin_formCancel[disabled],
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formCancel {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit {
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit:hover,
+.cms_registerAccountWrapper .javelin_formSubmit:focus,
+.cms_registerAccountWrapper .javelin_formSubmit:active,
+.cms_registerAccountWrapper .javelin_formSubmit.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit.disabled,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled],
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit,
+.cms_registerAccountWrapper .javelin_formSubmit.disabled:hover,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled]:hover,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit:hover,
+.cms_registerAccountWrapper .javelin_formSubmit.disabled:focus,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled]:focus,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit:focus,
+.cms_registerAccountWrapper .javelin_formSubmit.disabled:active,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled]:active,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit:active,
+.cms_registerAccountWrapper .javelin_formSubmit.disabled.active,
+.cms_registerAccountWrapper .javelin_formSubmit[disabled].active,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formSubmit.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+.cms_registerAccountWrapper .javelin_formSubmit:hover,
+.cms_registerAccountWrapper .javelin_formSubmit:focus,
+.cms_registerAccountWrapper .javelin_formSubmit:active,
+.cms_registerAccountWrapper .javelin_formSubmit.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+.cms_registerAccountWrapper .javelin_formCancel {
+    border-radius: 0;
+    color: #d51b22;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    display: inline
+}
+
+.cms_registerAccountWrapper .javelin_formCancel,
+.cms_registerAccountWrapper .javelin_formCancel.active,
+.cms_registerAccountWrapper .javelin_formCancel:active,
+.cms_registerAccountWrapper .javelin_formCancel[disabled],
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formCancel {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.cms_registerAccountWrapper .javelin_formCancel,
+.cms_registerAccountWrapper .javelin_formCancel:hover,
+.cms_registerAccountWrapper .javelin_formCancel:focus,
+.cms_registerAccountWrapper .javelin_formCancel.active,
+.cms_registerAccountWrapper .javelin_formCancel:active {
+    border-color: transparent
+}
+
+.cms_registerAccountWrapper .javelin_formCancel:hover,
+.cms_registerAccountWrapper .javelin_formCancel:focus {
+    background-color: transparent;
+    color: #e57175
+}
+
+.cms_registerAccountWrapper .javelin_formCancel[disabled]:hover,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formCancel:hover,
+.cms_registerAccountWrapper .javelin_formCancel[disabled]:focus,
+fieldset[disabled] .cms_registerAccountWrapper .javelin_formCancel:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.cms_registerAccountWrapper #captcha {
+    width: auto;
+    min-width: 40%
+}
+
+.javelin_msg+.cms_userLoginWrapper {
+    margin-top: 31px
+}
+
+.cms_userLoginWrapper .formLayout {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto
+}
+
+.cms_userLoginWrapper .formLayout dt {
+    margin-top: 0
+}
+
+.cms_userLoginWrapper .formLayout dd {
+    margin-bottom: 31px
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"],
+.cms_userLoginWrapper .formLayout dd input[type="password"] {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select.cms_userLoginWrapper .formLayout dd input[type="text"],
+select.cms_userLoginWrapper .formLayout dd input[type="password"] {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea.cms_userLoginWrapper .formLayout dd input[type="text"],
+textarea.cms_userLoginWrapper .formLayout dd input[type="password"],
+select[multiple].cms_userLoginWrapper .formLayout dd input[type="text"],
+select[multiple].cms_userLoginWrapper .formLayout dd input[type="password"] {
+    height: auto
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"]::-moz-placeholder,
+.cms_userLoginWrapper .formLayout dd input[type="password"]::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"]:-ms-input-placeholder,
+.cms_userLoginWrapper .formLayout dd input[type="password"]:-ms-input-placeholder {
+    color: #aaa
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"]::-webkit-input-placeholder,
+.cms_userLoginWrapper .formLayout dd input[type="password"]::-webkit-input-placeholder {
+    color: #aaa
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"]:focus,
+.cms_userLoginWrapper .formLayout dd input[type="password"]:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.cms_userLoginWrapper .formLayout dd input[type="text"][disabled],
+.cms_userLoginWrapper .formLayout dd input[type="password"][disabled],
+.cms_userLoginWrapper .formLayout dd input[type="text"][readonly],
+.cms_userLoginWrapper .formLayout dd input[type="password"][readonly],
+fieldset[disabled] .cms_userLoginWrapper .formLayout dd input[type="text"],
+fieldset[disabled] .cms_userLoginWrapper .formLayout dd input[type="password"] {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea.cms_userLoginWrapper .formLayout dd input[type="text"],
+textarea.cms_userLoginWrapper .formLayout dd input[type="password"] {
+    height: auto;
+    min-height: 150px
+}
+
+.cms_userLoginWrapper dd:last-child {
+    text-align: center
+}
+
+.cms_userLoginWrapper button,
+.cms_userLoginWrapper .formCancel {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 9px;
+    padding-bottom: 5px
+}
+
+.cms_userLoginWrapper button:hover,
+.cms_userLoginWrapper .formCancel:hover,
+.cms_userLoginWrapper button:focus,
+.cms_userLoginWrapper .formCancel:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.cms_userLoginWrapper button:active,
+.cms_userLoginWrapper .formCancel:active,
+.cms_userLoginWrapper button.active,
+.cms_userLoginWrapper .formCancel.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+.cms_userLoginWrapper button.disabled,
+.cms_userLoginWrapper .formCancel.disabled,
+.cms_userLoginWrapper button[disabled],
+.cms_userLoginWrapper .formCancel[disabled],
+fieldset[disabled] .cms_userLoginWrapper button,
+fieldset[disabled] .cms_userLoginWrapper .formCancel {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.cms_userLoginWrapper button {
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+.cms_userLoginWrapper button:hover,
+.cms_userLoginWrapper button:focus,
+.cms_userLoginWrapper button:active,
+.cms_userLoginWrapper button.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.cms_userLoginWrapper button.disabled,
+.cms_userLoginWrapper button[disabled],
+fieldset[disabled] .cms_userLoginWrapper button,
+.cms_userLoginWrapper button.disabled:hover,
+.cms_userLoginWrapper button[disabled]:hover,
+fieldset[disabled] .cms_userLoginWrapper button:hover,
+.cms_userLoginWrapper button.disabled:focus,
+.cms_userLoginWrapper button[disabled]:focus,
+fieldset[disabled] .cms_userLoginWrapper button:focus,
+.cms_userLoginWrapper button.disabled:active,
+.cms_userLoginWrapper button[disabled]:active,
+fieldset[disabled] .cms_userLoginWrapper button:active,
+.cms_userLoginWrapper button.disabled.active,
+.cms_userLoginWrapper button[disabled].active,
+fieldset[disabled] .cms_userLoginWrapper button.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+.cms_userLoginWrapper button:hover,
+.cms_userLoginWrapper button:focus,
+.cms_userLoginWrapper button:active,
+.cms_userLoginWrapper button.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+.cms_userLoginWrapper .formCancel {
+    border-radius: 0;
+    color: #d51b22;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    display: inline
+}
+
+.cms_userLoginWrapper .formCancel,
+.cms_userLoginWrapper .formCancel.active,
+.cms_userLoginWrapper .formCancel:active,
+.cms_userLoginWrapper .formCancel[disabled],
+fieldset[disabled] .cms_userLoginWrapper .formCancel {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.cms_userLoginWrapper .formCancel,
+.cms_userLoginWrapper .formCancel:hover,
+.cms_userLoginWrapper .formCancel:focus,
+.cms_userLoginWrapper .formCancel.active,
+.cms_userLoginWrapper .formCancel:active {
+    border-color: transparent
+}
+
+.cms_userLoginWrapper .formCancel:hover,
+.cms_userLoginWrapper .formCancel:focus {
+    background-color: transparent;
+    color: #e57175
+}
+
+.cms_userLoginWrapper .formCancel[disabled]:hover,
+fieldset[disabled] .cms_userLoginWrapper .formCancel:hover,
+.cms_userLoginWrapper .formCancel[disabled]:focus,
+fieldset[disabled] .cms_userLoginWrapper .formCancel:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.cms_userLoginWrapper .javelin_userLoginRecovery {
+    font-size: 13px
+}
+
+.clearfix:before,
+.clearfix:after,
+.page-header:before,
+.page-header:after,
+.page-nav:before,
+.page-nav:after,
+.javelin_blogPost:before,
+.javelin_blogPost:after,
+.javelin_calendarMulti:before,
+.javelin_calendarMulti:after,
+.javelin_galleryItems:before,
+.javelin_galleryItems:after,
+.javelin_staffItem:before,
+.javelin_staffItem:after,
+.javelin_staffModule:before,
+.javelin_staffModule:after,
+.javelin_twitterHeader:before,
+.javelin_twitterHeader:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+#nav:before,
+#nav:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after,
+.page-header:after,
+.page-nav:after,
+.javelin_blogPost:after,
+.javelin_calendarMulti:after,
+.javelin_galleryItems:after,
+.javelin_staffItem:after,
+.javelin_staffModule:after,
+.javelin_twitterHeader:after,
+.container:after,
+.row:after,
+#nav:after {
+    clear: both
+}
+
+.float-left {
+    float: left!important
+}
+
+.float-right {
+    float: right!important
+}
+
+.relative {
+    position: relative
+}
+
+.show {
+    display: block!important
+}
+
+.hide {
+    display: none!important;
+    visibility: hidden!important
+}
+
+.sr {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0)
+}
+
+.btn {
+    margin-bottom: 0;
+    background-image: none;
+    border: 0 solid transparent;
+    box-shadow: none;
+    font: normal 20px/1.75 Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: none;
+    text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.btn:active,
+.btn.active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    outline: 0
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    box-shadow: none;
+    opacity: .65;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.btn-default {
+    background-color: #ed1c24;
+    border-color: transparent;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: -o-linear-gradient(top, #ed1c24 0, #b31c27 100%);
+    background-image: linear-gradient(to bottom, #ed1c24 0, #b31c27 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed1c24', endColorstr='#ffb31c27', GradientType=0)
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-color: #c61017;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    background-color: #ed1c24;
+    border-color: transparent
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-image: -webkit-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: -o-linear-gradient(top, #f82c33 0, #ed1c24 100%);
+    background-image: linear-gradient(to bottom, #f82c33 0, #ed1c24 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff82c33', endColorstr='#ffed1c24', GradientType=0)
+}
+
+.btn-inverse {
+    background-color: #1cede5;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active {
+    background-color: #10c6bf;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+fieldset[disabled] .btn-inverse,
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse:hover,
+.btn-inverse.disabled:focus,
+.btn-inverse[disabled]:focus,
+fieldset[disabled] .btn-inverse:focus,
+.btn-inverse.disabled:active,
+.btn-inverse[disabled]:active,
+fieldset[disabled] .btn-inverse:active,
+.btn-inverse.disabled.active,
+.btn-inverse[disabled].active,
+fieldset[disabled] .btn-inverse.active {
+    background-color: #1cede5;
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.btn-link {
+    border-radius: 0;
+    color: #d51b22;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.75
+}
+
+.btn-link,
+.btn-link.active,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link.active,
+.btn-link:active {
+    border-color: transparent
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    background-color: transparent;
+    color: #e57175
+}
+
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.btn-sm {
+    height: 31px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1.75
+}
+
+.btn-lg {
+    height: 62px;
+    padding: 7px 17px;
+    border-radius: 6px;
+    font-size: 27px;
+    line-height: 1.75
+}
+
+.btn-block {
+    width: 100%;
+    display: block
+}
+
+.btn-block+.btn-block {
+    margin-top: 5px
+}
+
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%
+}
+
+.btn-icon {
+    background-image: none;
+    border: transparent;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    padding: 10px 0;
+    border-radius: 0;
+    font-size: 30px;
+    line-height: 0;
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btn-icon:hover,
+.btn-icon:focus,
+.btn-icon:active,
+.btn-icon.active {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit
+}
+
+.btn-icon.disabled,
+.btn-icon[disabled],
+fieldset[disabled] .btn-icon,
+.btn-icon.disabled:hover,
+.btn-icon[disabled]:hover,
+fieldset[disabled] .btn-icon:hover,
+.btn-icon.disabled:focus,
+.btn-icon[disabled]:focus,
+fieldset[disabled] .btn-icon:focus,
+.btn-icon.disabled:active,
+.btn-icon[disabled]:active,
+fieldset[disabled] .btn-icon:active,
+.btn-icon.disabled.active,
+.btn-icon[disabled].active,
+fieldset[disabled] .btn-icon.active {
+    background-color: transparent;
+    border-color: transparent
+}
+
+.btn-icon:hover,
+.btn-icon:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.form-control {
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #555;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: block;
+    height: 43px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+select.form-control {
+    height: 43px;
+    line-height: 43px
+}
+
+textarea.form-control,
+select[multiple].form-control {
+    height: auto
+}
+
+.form-control::-moz-placeholder {
+    color: #aaa;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #aaa
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #aaa
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #ddd;
+    opacity: 1;
+    cursor: not-allowed
+}
+
+textarea.form-control {
+    height: auto;
+    min-height: 150px
+}
+
+.form-control-static {
+    margin-bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.form-control-sm {
+    height: 29px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1.5
+}
+
+select.form-control-sm {
+    height: 29px;
+    line-height: 29px
+}
+
+textarea.form-control-sm,
+select[multiple].form-control-sm {
+    height: auto
+}
+
+.form-control-lg {
+    height: 68px;
+    padding: 6px 17px;
+    border-radius: 6px;
+    font-size: 27px;
+    line-height: 2
+}
+
+select.form-control-lg {
+    height: 68px;
+    line-height: 68px
+}
+
+textarea.form-control-lg,
+select[multiple].form-control-lg {
+    height: auto
+}
+
+.form-switch {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    vertical-align: middle;
+    display: block;
+    position: relative
+}
+
+.form-switch+.form-switch {
+    margin-top: -9px
+}
+
+label.form-switch,
+.form-switch label {
+    min-height: 31px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    font-weight: normal;
+    cursor: pointer
+}
+
+.form-switch input[type="radio"],
+.form-switch input[type="checkbox"] {
+    margin-top: 8px;
+    margin-left: -20px;
+    position: absolute
+}
+
+.form-switch.disabled label,
+fieldset[disabled] .form-switch label {
+    cursor: not-allowed
+}
+
+.form-switch-inline {
+    margin-bottom: 0;
+    padding-left: 20px;
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer
+}
+
+.form-switch-inline+.form-switch-inline {
+    margin-top: 0;
+    margin-left: 20px
+}
+
+.form-switch-inline input[type="radio"],
+.form-switch-inline input[type="checkbox"] {
+    margin-top: 8px;
+    margin-left: -20px;
+    position: absolute
+}
+
+.form-switch-inline.disabled,
+fieldset[disabled] .form-switch-inline {
+    cursor: not-allowed
+}
+
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"].disabled,
+input[type="checkbox"].disabled,
+fieldset[disabled] input[type="radio"],
+fieldset[disabled] input[type="checkbox"] {
+    cursor: not-allowed
+}
+
+.hr-vertical {
+    width: 0;
+    height: auto;
+    margin: 0;
+    margin-left: 50%;
+    border: 0;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0
+}
+
+.img-cover {
+    width: 100%!important;
+    max-width: 100%;
+    height: auto!important;
+    display: block;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto!important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 960px
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+[class^="grid-"] {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+    float: left
+}
+
+.grid-12 {
+    width: 100%
+}
+
+.grid-11 {
+    width: 91.66666667%
+}
+
+.grid-10 {
+    width: 83.33333333%
+}
+
+.grid-9 {
+    width: 75%
+}
+
+.grid-8 {
+    width: 66.66666667%
+}
+
+.grid-7 {
+    width: 58.33333333%
+}
+
+.grid-6 {
+    width: 50%
+}
+
+.grid-5 {
+    width: 41.66666667%
+}
+
+.grid-4 {
+    width: 33.33333333%
+}
+
+.grid-3 {
+    width: 25%
+}
+
+.grid-2 {
+    width: 16.66666667%
+}
+
+.grid-1 {
+    width: 8.33333333%
+}
+
+.pull-12 {
+    right: 100%
+}
+
+.pull-11 {
+    right: 91.66666667%
+}
+
+.pull-10 {
+    right: 83.33333333%
+}
+
+.pull-9 {
+    right: 75%
+}
+
+.pull-8 {
+    right: 66.66666667%
+}
+
+.pull-7 {
+    right: 58.33333333%
+}
+
+.pull-6 {
+    right: 50%
+}
+
+.pull-5 {
+    right: 41.66666667%
+}
+
+.pull-4 {
+    right: 33.33333333%
+}
+
+.pull-3 {
+    right: 25%
+}
+
+.pull-2 {
+    right: 16.66666667%
+}
+
+.pull-1 {
+    right: 8.33333333%
+}
+
+.pull-0 {
+    right: auto
+}
+
+.push-12 {
+    left: 100%
+}
+
+.push-11 {
+    left: 91.66666667%
+}
+
+.push-10 {
+    left: 83.33333333%
+}
+
+.push-9 {
+    left: 75%
+}
+
+.push-8 {
+    left: 66.66666667%
+}
+
+.push-7 {
+    left: 58.33333333%
+}
+
+.push-6 {
+    left: 50%
+}
+
+.push-5 {
+    left: 41.66666667%
+}
+
+.push-4 {
+    left: 33.33333333%
+}
+
+.push-3 {
+    left: 25%
+}
+
+.push-2 {
+    left: 16.66666667%
+}
+
+.push-1 {
+    left: 8.33333333%
+}
+
+.push-0 {
+    left: auto
+}
+
+.offset-12 {
+    margin-left: 100%
+}
+
+.offset-11 {
+    margin-left: 91.66666667%
+}
+
+.offset-10 {
+    margin-left: 83.33333333%
+}
+
+.offset-9 {
+    margin-left: 75%
+}
+
+.offset-8 {
+    margin-left: 66.66666667%
+}
+
+.offset-7 {
+    margin-left: 58.33333333%
+}
+
+.offset-6 {
+    margin-left: 50%
+}
+
+.offset-5 {
+    margin-left: 41.66666667%
+}
+
+.offset-4 {
+    margin-left: 33.33333333%
+}
+
+.offset-3 {
+    margin-left: 25%
+}
+
+.offset-2 {
+    margin-left: 16.66666667%
+}
+
+.offset-1 {
+    margin-left: 8.33333333%
+}
+
+.offset-0 {
+    margin-left: 0
+}
+
+table col[class*="grid-"] {
+    float: none;
+    display: table-column;
+    position: static
+}
+
+th[class*="grid-"],
+td[class*="grid-"] {
+    float: none;
+    display: table-cell
+}
+
+.icon {
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    background-image: url(/images/icons.png)
+}
+
+.javelin_textItem ul,
+.javelin_rotatorItem ul,
+.javelin_calendarEventBody ul,
+.javelin_blogPostDescription ul,
+.javelin_faqQuestions ul,
+.javelin_faqItemAnswer ul,
+.javelin_links ul,
+.javelin_staffBody ul,
+.cms-tabs-panel ul {
+    margin-left: 22px
+}
+
+.javelin_textItem ul li,
+.javelin_rotatorItem ul li,
+.javelin_calendarEventBody ul li,
+.javelin_blogPostDescription ul li,
+.javelin_faqQuestions ul li,
+.javelin_faqItemAnswer ul li,
+.javelin_links ul li,
+.javelin_staffBody ul li,
+.cms-tabs-panel ul li {
+    padding-left: 16px;
+    background: url(/images/bullet-default.png) 0 8px no-repeat;
+    list-style: none
+}
+
+.javelin_textItem ul li ul,
+.javelin_rotatorItem ul li ul,
+.javelin_calendarEventBody ul li ul,
+.javelin_blogPostDescription ul li ul,
+.javelin_faqQuestions ul li ul,
+.javelin_faqItemAnswer ul li ul,
+.javelin_links ul li ul,
+.javelin_staffBody ul li ul,
+.cms-tabs-panel ul li ul {
+    margin-left: 16px
+}
+
+.javelin_textItem img,
+.javelin_rotatorItem img,
+.javelin_galleryItem img,
+.javelin_blogPostImage img,
+.javelin_blogPostDescription img,
+.javelin_linksItemDescription img,
+.javelin_staffImage img,
+.javelin_staffItemImage img,
+.javelin_twitterHeader img,
+.cms-tabs-panel img {
+    border-radius: 4px
+}
+
+.javelin_textItem .img-nostyle,
+.javelin_rotatorItem .img-nostyle,
+.javelin_galleryItem .img-nostyle,
+.javelin_blogPostImage .img-nostyle,
+.javelin_blogPostDescription .img-nostyle,
+.javelin_linksItemDescription .img-nostyle,
+.javelin_staffImage .img-nostyle,
+.javelin_staffItemImage .img-nostyle,
+.javelin_twitterHeader .img-nostyle,
+.cms-tabs-panel .img-nostyle,
+.javelin_textItem .img-nostyle img,
+.javelin_rotatorItem .img-nostyle img,
+.javelin_galleryItem .img-nostyle img,
+.javelin_blogPostImage .img-nostyle img,
+.javelin_blogPostDescription .img-nostyle img,
+.javelin_linksItemDescription .img-nostyle img,
+.javelin_staffImage .img-nostyle img,
+.javelin_staffItemImage .img-nostyle img,
+.javelin_twitterHeader .img-nostyle img,
+.cms-tabs-panel .img-nostyle img {
+    border-radius: 0
+}
+
+.btn {
+    padding-top: 9px;
+    padding-bottom: 5px
+}
+
+.icon-user {
+    background-position: 0 0
+}
+
+.icon-search {
+    background-position: -30px 0
+}
+
+.icon-send {
+    background-position: -60px 0
+}
+
+.icon-play {
+    background-position: -90px 0
+}
+
+.icon-facebook {
+    background-position: 0 -30px
+}
+
+.icon-pinterest {
+    background-position: -30px -30px
+}
+
+.icon-twitter {
+    background-position: -60px -30px
+}
+
+a:hover .icon-facebook {
+    background-position: 0 -60px
+}
+
+a:hover .icon-pinterest {
+    background-position: -30px -60px
+}
+
+a:hover .icon-twitter {
+    background-position: -60px -60px
+}
+
+.simplemodal {
+    box-shadow: 0 6px 12px 0 #000;
+    display: none
+}
+
+.simplemodal iframe {
+    display: block
+}
+
+.simplemodal-close {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px 0 #000;
+    color: #555;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    text-indent: 1px;
+    position: absolute;
+    top: -30px;
+    right: -30px
+}
+
+.simplemodal-close:hover {
+    color: #e57175
+}
+
+.page-header {
+    height: 100px;
+    background-color: #141414
+}
+
+.page-header .header-right {
+    width: 485px;
+    height: 88px;
+    padding-top: 12px;
+    text-align: right;
+    float: right
+}
+
+.page-header .header-right ul {
+    margin-bottom: 5px
+}
+
+.page-header .header-right ul li {
+    list-style: none;
+    display: inline-block
+}
+
+.page-header .header-right ul li a {
+    margin: 0 10px;
+    color: #d51b22;
+    font-size: 16px
+}
+
+.page-header .header-right ul li a:hover {
+    color: #ec6a6f
+}
+
+.page-header .header-right .icon-user {
+    top: -3px
+}
+
+.search-info {
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 25px
+}
+
+.search {
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    top: 2px
+}
+
+.search input[type="text"] {
+    width: 115px;
+    height: 30px;
+    padding: 0 30px 0 15px;
+    background-color: #d51b22;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 1!important
+}
+
+.search .search-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: -1px;
+    right: -24px;
+    z-index: 2!important
+}
+
+.logo {
+    margin-right: 30px;
+    padding-top: 20px;
+    float: left
+}
+
+.hero-media {
+    height: 570px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000!important
+}
+
+.hero-media .product-logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1500!important
+}
+
+.hero-media .ge-logo {
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    z-index: 1500!important
+}
+
+.hero-media .btn-video {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: 1500!important
+}
+
+.hero-media .btn-video .icon {
+    margin-left: 8px;
+    top: -2px
+}
+
+.hand-media {
+    margin-top: -230px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1500!important;
+    -webkit-transition: right .3s ease-out;
+    -o-transition: right .3s ease-out;
+    transition: right .3s ease-out
+}
+
+@media only screen and (max-width:1170px) {
+    .hand-media {
+        right: -100px
+    }
+}
+
+@media only screen and (max-width:970px) {
+    .hand-media {
+        right: -200px
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .hand-media {
+        display: none
+    }
+}
+
+.cms-slideshow-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.cms-slideshow-text {
+    width: 960px;
+    margin: 0 auto;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0
+}
+
+.cms-slideshow-text h3 {
+    width: 550px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif
+}
+
+.cms-slideshow-text p {
+    width: 550px;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+.page-nav {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    z-index: 2000!important
+}
+
+#nav {
+    margin-left: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#nav ul {
+    margin: 0
+}
+
+#nav li {
+    list-style: none;
+    position: relative
+}
+
+#nav a {
+    display: block
+}
+
+#nav>li {
+    float: left
+}
+
+#nav>li>a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #141414;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 2
+}
+
+#nav>li.javelin_active>a {
+    color: #141414
+}
+
+#nav>li>a:hover,
+#nav>li:hover>a {
+    color: #fff;
+    background-color: #d51b22
+}
+
+#nav>li>ul {
+    border-radius: 0 0 4px 4px;
+    background-color: rgba(213, 27, 34, 0.9);
+    text-align: left
+}
+
+#nav>li>ul>li:first-child>a {
+    border-radius: 0 0 4px 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+#nav>li>ul>li:last-child>a {
+    border-radius: 0 0 4px 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#nav>li>ul>li a {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.25;
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+#nav>li>ul>li a:hover {
+    color: #141414;
+    background-color: false
+}
+
+#nav>li>ul>li ul {
+    background-color: #6f9a37
+}
+
+#nav>li>ul>li ul a {
+    padding-left: 40px
+}
+
+#nav>li:hover>ul {
+    display: block
+}
+
+#nav>li>ul {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    display: none
+}
+
+#nav>li.javelin_lastItem>ul {
+    left: auto;
+    right: 0
+}
+
+#nav>li>ul>li>ul>li>a {
+    background: url("/images/bullet-inverse.png") 22px 12px no-repeat
+}
+
+.subnav-row {
+    padding-bottom: 40px;
+    background: url("/images/bg-subnav.gif") left top repeat-y
+}
+
+#subnav {
+    padding-top: 60px;
+    margin-left: 0;
+    border-radius: 4px
+}
+
+#subnav ul {
+    margin: 0
+}
+
+#subnav li {
+    list-style: none;
+    position: relative
+}
+
+#subnav a {
+    display: block
+}
+
+#subnav>li:first-child>a {
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+#subnav>li:last-child>a {
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#subnav li a {
+    padding: 10px 0;
+    color: #fff;
+    line-height: 1.25
+}
+
+#subnav li.javelin_active>a {
+    color: #fff
+}
+
+#subnav li a:hover {
+    color: #000
+}
+
+#subnav li ul {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+#subnav li ul a {
+    padding-left: 20px
+}
+
+#subnav>li>ul>li>a {
+    padding-left: 27px;
+    background: url("/images/bullet-inverse.png") 11px 13px no-repeat
+}
+
+.inside .page-main {
+    border: 0
+}
+
+.inside .default-content {
+    padding-top: 60px;
+    padding-right: 0;
+    padding-left: 45px
+}
+
+.inside-light-theme {
+    background-color: #fff
+}
+
+.inside-light-theme .page-nav {
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.2)
+}
+
+.inside-light-theme .default-region {
+    margin-top: 50px
+}
+
+.inside-dark-theme {
+    background-color: #4e4e4e
+}
+
+.inside-dark-theme .default-region {
+    margin-top: 50px
+}
+
+.page-banner {
+    margin-bottom: 40px
+}
+
+.page-banner .javelin_moduleItem p img {
+    width: 100%!important;
+    max-width: 100%;
+    height: auto!important;
+    display: block;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    border-radius: 0!important
+}
+
+.index-section-1 {
+    min-height: 530px;
+    background-color: #d51b22;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif
+}
+
+.index-section-1 .media-block {
+    min-height: 460px;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff
+}
+
+.index-section-1 .media-block img {
+    margin-bottom: 40px
+}
+
+.index-section-1 .media-block h1,
+.index-section-1 .media-block h2,
+.index-section-1 .media-block h3 {
+    margin-bottom: 10px;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif
+}
+
+.index-section-1 .shadow-block-1 {
+    background: url("/images/media-block-shadow-left.jpg") right top no-repeat
+}
+
+.index-section-1 .shadow-block-2 {
+    background: url("/images/media-block-shadow-right.jpg") left top no-repeat
+}
+
+.index-section-2 {
+    height: 550px;
+    background-color: #b31c27;
+    position: relative
+}
+
+.index-section-2 .bg-attachment-1 {
+    width: 100%;
+    height: 120px;
+    background: url("/images/index-section-2-shadow-top.png") top repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2!important
+}
+
+.index-section-2 .bg-attachment-2 {
+    width: 100%;
+    height: 120px;
+    background: url("/images/index-section-2-shadow-bottom.png") bottom repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1!important
+}
+
+.index-section-3 {
+    padding: 60px 0 30px 0;
+    background: #fff url("/images/bg-index-section-3.jpg") bottom repeat-x;
+    text-align: center
+}
+
+.index-section-3 .product-info {
+    padding: 35px 85px 0 85px;
+    font-size: 20px
+}
+
+.location-marker {
+    width: 50px;
+    height: 50px;
+    background: url("/images/btn-callout.png") center top no-repeat;
+    position: absolute;
+    z-index: 2!important
+}
+
+.callout-map {
+    width: 1230px;
+    height: 550px;
+    background: url("/images/map-callout.png") center no-repeat;
+    position: relative
+}
+
+.callout-panel {
+    width: 460px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    opacity: 0;
+    position: absolute;
+    left: -100%;
+    z-index: 4!important
+}
+
+.callout-panel:after {
+    margin-top: -15px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    pointer-events: none
+}
+
+.callout-panel .panel-inner {
+    padding: 20px 20px 10px 20px;
+    background-color: #000;
+    border-radius: 5px;
+    overflow: auto
+}
+
+.callout-panel.active {
+    -webkit-transition: -webkit-transform .35s ease, opacity .35s ease;
+    -moz-transition: -moz-transform .35s ease, opacity .35s ease;
+    -o-transition: -o-transform .35s ease, opacity .35s ease;
+    transition: transform .35s ease, opacity .35s ease
+}
+
+.callout-panel.clickable {
+    cursor: pointer
+}
+
+.callout-panel.left:after {
+    width: 0;
+    height: 0;
+    border-left: 80px solid #000;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    right: -80px
+}
+
+.callout-panel.left.in {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+    opacity: 1
+}
+
+.callout-panel.left.out {
+    -webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+    opacity: 0
+}
+
+.callout-panel.right:after {
+    width: 0;
+    height: 0;
+    border-right: 100px solid #000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: -90px
+}
+
+.callout-panel.right.in {
+    -webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+    opacity: 1
+}
+
+.callout-panel.right.out {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+    opacity: 0
+}
+
+.callout-product {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left
+}
+
+.callout-title {
+    margin-bottom: 5px;
+    color: #d51b22;
+    font-size: 26px;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif
+}
+
+.callout-product-title {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif
+}
+
+.callout-product-info {
+    margin-bottom: 0;
+    color: #e2e2e2;
+    font-size: 16px
+}
+
+.info-block {
+    width: 410px;
+    height: 255px;
+    padding: 15px 15px 0 15px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3!important
+}
+
+.info-block h1,
+.info-block h2,
+.info-block h3 {
+    margin-bottom: 10px;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+    font-size: 30px
+}
+
+.info-block p {
+    font-size: 20px
+}
+
+.page-footer {
+    height: 410px;
+    padding-top: 60px;
+    background-color: #000;
+    color: #fff;
+    text-align: center
+}
+
+.page-footer h6 {
+    color: #fff;
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+.footer-blurb {
+    margin-bottom: 80px
+}
+
+.newsletter-block {
+    text-align: left
+}
+
+.newsletter-block p {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px
+}
+
+.newsletter-block form {
+    position: relative
+}
+
+.newsletter-block label {
+    display: none
+}
+
+.newsletter-block input[type=text] {
+    width: 128px;
+    padding: 5px 35px 5px 17px;
+    background-color: #d51b22;
+    color: #000;
+    border-radius: 20px;
+    border: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+.newsletter-block .btn {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    padding: 0 12px;
+    background-image: url("/images/icons.png");
+    background-repeat: no-repeat;
+    background-position: -152px 6px;
+    position: absolute;
+    top: 0;
+    right: 42px
+}
+
+.connect-block ul {
+    margin: 0
+}
+
+.connect-block ul li {
+    margin: 0 3px;
+    list-style: none;
+    display: inline-block
+}
+
+.help-block {
+    text-align: left
+}
+
+.help-block ul {
+    margin: 0
+}
+
+.help-block ul li {
+    list-style: none
+}
+
+.help-block ul li a {
+    font-size: 18px
+}
+
+.info-links {
+    margin-top: 40px
+}
+
+.info-links ul {
+    margin: 0
+}
+
+.info-links ul li {
+    list-style: none;
+    display: inline-block
+}
+
+.info-links ul li a {
+    color: #b7b7b7;
+    font-size: 14px
+}
+
+.copyright {
+    color: #b7b7b7;
+    font-size: 14px
+}
+
+.copyright a {
+    text-decoration: underline
+}
